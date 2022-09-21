@@ -1,1 +1,48 @@
 
+body{
+    background: ghostwhite;
+  }
+  h1 {
+    text-align: center;
+  } 
+  .menuPrincipal {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    background: green;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: 0;
+  }
+  li {
+    float: left;
+  }
+  li a {
+    display: block;
+   color: darkblue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  li a:hover {
+     color: red;
+     background: blanchedalmond;
+  }
+  .rodape {
+     position: absolute;
+     bottom: 0;
+     width: 100%;
+     height: 35px;
+     background: green;
+     color: black;
+     display: flex;
+     justify-content: center;
+  }
+  .conteudo {
+    position: absolute;
+    top: 45px;
+ }
